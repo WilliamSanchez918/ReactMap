@@ -1,9 +1,9 @@
 
 ##Contents
-[Init](#Init)
-[Operation](#Operation)
-[API's](#API)
-[Attrition](#Attrition)
+* [Init](#Init)
+* [Operation](#Operation)
+* [API's](#API)
+* [Attrition](#Attrition)
 
 
 
