@@ -1,9 +1,9 @@
 
 ##Contents
-[Init] #Init
-[Operation]
-[API's]
-[Attrition]
+[Init](#Init)
+[Operation](#Operation)
+[API's](#API)
+[Attrition](#Attrition)
 
 
 
@@ -16,14 +16,12 @@ Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-## API's
+## API
 
 [Google-Maps-API]
-##################
 https://developers.google.com/maps/documentation/javascript/adding-a-google-map
 
 [Four-Square]
-#############
 https://developer.foursquare.com/docs/api
 
 [Axios]
