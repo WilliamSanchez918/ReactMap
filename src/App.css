@@ -3,17 +3,21 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 5vmin;
+  position: relative;
+  margin-right: calc(16px + 90vw);
+  top: -10px;
+}
+.App-logo:hover {
+  animation: App-logo-spin infinite 2s linear;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: royalblue;
+  min-height: 5vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -21,6 +25,79 @@
 .App-link {
   color: #61dafb;
 }
+
+#centerHeader {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.sidenav {
+    margin-top: 46px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #BE499E;
+    overflow-x: hidden;
+    transition: 0.4s;
+    font-size: 20px;
+    font-family: 'Helvetica';
+}
+.sidenav a {
+    text-align: left;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    transition: 0.4s;
+}
+.sidenav a:hover {
+    color: #4856C1;
+}
+
+#main {
+    padding: 0px;
+    width: 100%;
+}
+.top-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #89ECE9;
+}
+.mainheading {
+    font-family: 'Arial Black';
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hamburger-box {
+    height: 40px !important;
+}
+.map-area > * > * {
+    height: 95% !important;
+}
+.placediv :hover {
+    background-color: #B0368F;
+    cursor: pointer;
+}
+.sidelogo {
+   margin-top: 100px;
+   margin-left: 65px;
+}
+
+@media screen and (min-width: 599px){
+    .sidelogo {
+        display: none;
+
+    }
+}
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -30,3 +107,4 @@
     transform: rotate(360deg);
   }
 }
+
